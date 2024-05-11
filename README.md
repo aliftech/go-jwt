@@ -35,3 +35,9 @@ To run the project, you can use a usual go command:
 ```bash
 go run main.go
 ```
+
+But, in this project we are not going to use it. Instead of using go run command, we will using CompileDaemon to run our application. Here is the command to run our application using CompileDaemon:
+
+```bash
+CompileDaemon -command="./go-jwt"
+```
