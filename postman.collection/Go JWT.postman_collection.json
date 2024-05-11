@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "ee1dbe58-c63d-4f04-a6ea-0ebf5aa07e81",
+		"name": "Go JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17071628"
+	},
+	"item": [
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test.signup@gmail.com\",\r\n    \"password\": \"kuda123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/signup"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test.signup@gmail.com\",\r\n    \"password\": \"kuda123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Validate Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/validate"
+			},
+			"response": []
+		}
+	]
+}
